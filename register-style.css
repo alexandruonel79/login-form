@@ -1,0 +1,127 @@
+/*mobile*/
+
+@media only screen and (min-width: 401px){
+
+    html{
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height:100%;
+        margin: 0;
+        padding: 0;
+        background:#eeeeee;
+        font-family: sans-serif;
+        font-size: 450%;
+        background-image: url(palm-tree.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    body .form1{
+        text-align: center;
+    }
+    body .form1 form input{
+        font-size: 100%;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-style: none;
+        height: 140px;
+        color: rgb(199, 66, 66);
+    }
+    body .form1 form label{
+        text-align: left;
+        font-family: sans-serif;
+        color: rgb(199, 66, 66);
+    }
+    body .form1 button{
+        font-family: sans-serif;
+        font-size: 250%;
+        border-style: none;
+        background-color: rgba(170, 51, 57,0.6);
+        margin: 0 auto;
+        color: rgba(170, 51, 57,1);
+    }
+    body .form1 button:hover{
+        font-size: 280%;
+        background-color: rgba(170, 51, 57,0.8);
+        color: rgba(180, 51, 57,1);
+        cursor: pointer;
+    }
+    body p{
+        font-family: sans-serif;
+        font-size: 100%;
+        border: 14px solid rgb(151, 60, 60);
+        color: rgba(180, 51, 57,1);
+    }
+
+}
+
+/*mobile se termina aici*/
+
+/*desktop incepe aici*/
+
+@media only screen and (min-width: 1000px){
+
+    html{
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height:100%;
+        margin: 0;
+        padding: 0;
+        background:#eeeeee;
+        font-family: sans-serif;
+        font-size: 250%;
+        background-image: url(wide.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    body .form1{
+        text-align: center;
+    }
+    body .form1 form input{
+        font-size: 100%;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-style: none;
+        height: 50px;
+        width: 100%;
+        color: rgb(199, 66, 66);
+    }
+    body .form1 form label{
+       float: left;
+        font-family: sans-serif;
+        color: rgb(199, 66, 66);
+    }
+    body .form1 button{
+        font-family: sans-serif;
+        font-size: 200%;
+        border-style: none;
+        background-color: rgba(170, 51, 57,0.6);
+        margin: 0 auto;
+        color: rgba(170, 51, 57,1);
+        margin-bottom: 2%;
+    }
+    body .form1 button:hover{
+        font-size: 200%;
+        background-color: rgba(170, 51, 57,0.8);
+        color:white;
+        cursor: pointer;
+    }
+    body p{
+        font-family: sans-serif;
+        font-size: 100%;
+        border: 14px solid rgb(151, 60, 60);
+        color: rgba(180, 51, 57,1);
+    }
+
+}
+
+/*desktop se termina aici*/
